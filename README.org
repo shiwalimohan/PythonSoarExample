@@ -5,7 +5,7 @@ An example to test Soar-on-server scenarios.
 - Point =LD_LIBRARY_PATH= or =DYLD_LIBRARY_PATH= to SoarSuite/bin
 
 * Multiple agents example
-- multi_agent_example.py contains two ways to run /n/ Soar agents
+- soar_example.py contains two ways to run /n/ Soar agents
   1. =single= mode: /n/ agents on a single kernel where the agents' decision cycles are synchronized
   2. =multi= mode: /n/ agents run on n kernels where the agents' decision cycles are independent
 
